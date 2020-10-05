@@ -1,0 +1,11 @@
+INFO:root:Version         : 3.8.2
+INFO:root:Version tuple   : ('3', '8', '2')
+INFO:root:Compiler        : Clang 6.0 (clang-600.0.57)
+INFO:root:Build           : ('v3.8.2:7b3ab5921f', 'Feb 24 2020 17:52:18') 
+INFO:root:System          : Darwin
+INFO:root:Node            : MacBook-Pro-Vadim-2.local
+INFO:root:Release         : 19.6.0
+INFO:root:Version         : Darwin Kernel Version 19.6.0: Mon Aug 31 22:12:52 PDT 2020; root:xnu-6153.141.2~1/RELEASE_X86_64
+INFO:root:Machine         : x86_64
+INFO:root:Processor       : i386
+INFO:root:Interpreter     : ('64bit', '')
