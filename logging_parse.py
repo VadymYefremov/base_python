@@ -21,4 +21,4 @@ def parse_args():
 
 args = parse_args()
 fold = args.folder
-fold_contents = os.listdir(fold)
+os.listdir(fold)
