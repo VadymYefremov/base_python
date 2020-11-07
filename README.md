@@ -1,22 +1,28 @@
 # About
 
-Part program for face detected 
+The program for analyze text
 
 ## Apply
-For using program "Face detected" 
 To apply, open the Terminal and type the following:
 ```terminal
- python main.py --folder (with the name of the folder with the photo)
+ python main_nl.py --file (necessarily) --a(if need) --b(if need) --c(if need) --d(if need)
 ```
-Name of the folder with the photo,
-which should be in the same directory.
+'--file' - for choosing file (.txt only) - is a mandatory function
 
-Function opens images (jpg) files in choose direction  
-for detect face in images 
-### Results
-All results will be in file "detected_info.log". 
-Face detection data is contained in the file with the name 
-'faces_dump.pickle'
-#### Important
-For works program file 'haarcascade_frontalface_default.xml'
-need be in the working directory 
+The following functions can be selected as needed:
+
+'--a' - conducts tokenize, lemmatize and stemming of text
+
+'--b' - delete stop word of text
+
+'--c' - counts all duplicate words in the text
+
+'--d' - displays the specified number of frequent words
+
+
+For example:
+```terminal
+ python main_nl.py --file name.txt --d 10 (the right amount) 
+```
+The result will be displayed in the terminal
+
